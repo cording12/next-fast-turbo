@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+ 
+[packages]
+flask = "*"
+fastapi = "*"
+uvicorn = "*"
+email-validator = "*"
+pydantic-settings = "*"
+python-dotenv = "*"
+supabase-py-async = "*"
+ 
+[requires]
+python_version = "3.12"
