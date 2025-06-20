@@ -4,5 +4,8 @@
     "scripts": {
         "dev": ".\\.venv\\Scripts\\python run.py",
         "generate:requirements": "poetry export --without-hashes --format=requirements.txt > requirements.txt"
+    },
+    "engines": {
+        "node": "20.x"
     }
 }
